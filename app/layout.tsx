@@ -10,8 +10,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Rodolfo | Frontend Developer',
-  description: 'Portfolio de Rodolfo - Frontend Developer com experiencia em web design, desenvolvimento e trabalho de qualidade.',
+  title: 'Rodolfo | Full Stack Developer',
+  description: 'Portfolio de Rodolfo - Full Stack Developer com experiência em desenvolvimento web e foco em soluções modernas e de alta qualidade.',
 }
 
 export const viewport: Viewport = {
