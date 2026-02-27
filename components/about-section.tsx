@@ -94,7 +94,7 @@ export function AboutSection() {
             className={`slide-in-right ${isVisible ? "visible" : ""} flex-1 space-y-5`}
           >
             <div className="flex flex-col gap-6 lg:flex-row lg:gap-8">
-              
+
               {/* Sobre text */}
               <div className="mt-0 max-w-xl space-y-4 text-left leading-relaxed text-muted-foreground sm:text-justify lg:mt-12">
                 <p className="uppercase text-primary">
