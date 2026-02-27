@@ -85,8 +85,8 @@ export function AboutSection() {
 
             <div className="absolute inset-0 rounded-xl border border-primary/10" />
 
-            {/* Corner accents */}
-            <div className="absolute -bottom-2 -right-0 h-20 w-16 rounded-br-xl border-b-2 border-r-2 border-primary/40" />
+            {/* Contorno da imagem */}
+            <div className="absolute -bottom-2 -right-0 h-100 w-16 rounded-br-xl border-b-2 border-r-2 border-primary/40" />
           </div>
 
           {/* Content */}
@@ -94,7 +94,8 @@ export function AboutSection() {
             className={`slide-in-right ${isVisible ? "visible" : ""} flex-1 space-y-5`}
           >
             <div className="flex flex-col gap-6 lg:flex-row lg:gap-8">
-              {/* About text */}
+              
+              {/* Sobre text */}
               <div className="mt-0 max-w-xl space-y-4 text-left leading-relaxed text-muted-foreground sm:text-justify lg:mt-12">
                 <p className="uppercase text-primary">
                   Desenvolvedor Full Stack em formação
