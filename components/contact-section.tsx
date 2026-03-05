@@ -56,7 +56,10 @@ export function ContactSection() {
   };
 
   return (
-    <section id="contact" className="min-h-screen px-4 py-20 sm:px-6 sm:py-24 md:px-8">
+    <section
+      id="contact"
+      className="min-h-screen px-4 py-20 sm:px-6 sm:py-24 md:px-8"
+    >
       <div ref={ref} className="mx-auto max-w-5xl">
         <div className={`animate-on-scroll ${isVisible ? "visible" : ""}`}>
           <p className="text-center text-sm font-medium tracking-widest uppercase text-primary">
@@ -256,6 +259,9 @@ export function ContactSection() {
             <FaGithub className="h-4 w-4" />
             iSousadev
           </a>
+          <p className="inline-block px-3 py-1 text-sm font-semibold text-white bg-fuchsia-900 rounded-lg shadow">
+            BETA
+          </p>
         </div>
       </div>
     </section>

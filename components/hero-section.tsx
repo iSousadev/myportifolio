@@ -164,6 +164,8 @@ export function HeroSection() {
       id="home"
       className="relative flex min-h-screen items-end justify-center overflow-hidden px-4 pb-10 pt-24 sm:px-6 sm:pb-14 sm:pt-28 md:px-8 lg:items-center lg:pb-16"
     >
+      
+      
       <div
         className={`absolute inset-0 -translate-y-20 lg:hidden transition-all duration-1000 delay-200 ${
           mounted ? "opacity-100 scale-100" : "opacity-0 scale-105"

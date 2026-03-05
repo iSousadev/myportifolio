@@ -50,6 +50,7 @@ export function SidebarNav() {
 
   return (
     <>
+    
       {/* Scroll progress line */}
       <div className="fixed left-0 top-0 z-[60] h-full w-[2px]">
         <div
@@ -69,6 +70,7 @@ export function SidebarNav() {
                 href={`#${id}`}
                 className="group relative flex flex-col items-center"
               >
+                
                 {/* Active indicator dot */}
                 {isActive && (
                   <span className="absolute -left-2 top-1/2 -translate-y-1/2 h-6 w-[3px] rounded-full bg-primary transition-all duration-300" />

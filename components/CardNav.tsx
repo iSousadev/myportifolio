@@ -70,6 +70,7 @@ const CardNav = ({ items, className = "" }: CardNavProps) => {
     .slice(0, 6);
 
   return (
+    
     <div
       className={`card-nav-container fixed left-1/2 top-4 z-[99] w-[calc(100%-1rem)] max-w-4xl -translate-x-1/2 transition-all duration-300 sm:w-[calc(100%-2rem)] md:w-[calc(100%-3rem)] lg:top-5 lg:w-[78%] ${isVisible ? "translate-y-0 opacity-100" : "-translate-y-[140%] opacity-0 pointer-events-none"} ${className}`}
     >
