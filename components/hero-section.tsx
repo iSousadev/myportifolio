@@ -229,7 +229,7 @@ export function HeroSection() {
           </p>
           <div className="flex w-full flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
             <a
-              href="https://drive.google.com/file/d/1tdgXYAQgkK55R2ECrPZHepdCsKx1ZkRv/view"
+              href="https://drive.google.com/file/d/1yQx6yJaoUZ6HMdGpcQT-yrVZuzi0mmvP/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="group glow-hover relative inline-flex w-full items-center justify-center gap-2 overflow-hidden rounded-4xl bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-all duration-300 hover:shadow-lg hover:shadow-primary/25 sm:w-auto"
